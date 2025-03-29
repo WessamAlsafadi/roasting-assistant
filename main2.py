@@ -48,8 +48,13 @@ def speak(text):
     with open(filename, "wb") as f:
         for chunk in audio_stream:
             f.write(chunk)
-    playsound.playsound(filename)
-    os.remove(filename)
+    
+    # Optional: Download link instead of playsound
+    st.audio(filename)  # Plays in browser
+                    
+                      
+                      
+  
 
 # 🎤 Listen
 def listen():
