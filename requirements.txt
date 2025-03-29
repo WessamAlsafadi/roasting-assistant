@@ -1,0 +1,6 @@
+streamlit
+speechrecognition
+deepgram-sdk==2.12.0
+groq
+elevenlabs
+playsound
