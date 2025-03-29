@@ -6,7 +6,6 @@ from groq import Groq
 from elevenlabs.client import ElevenLabs
 from elevenlabs import VoiceSettings
 import os
-import playsound
 
 # 🔐 API Keys
 DG_API_KEY = "929a643078dfbcb11431cabd06e72980a68cd90a"
